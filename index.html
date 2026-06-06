@@ -1,592 +1,514 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Học Phần - Sinh Viên UET</title>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Học Tập</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- ═══════════════════════════════════ NAVIGATION ═══════════════════════════════════ -->
+<!-- NAVIGATION -->
 <nav>
-    <div class="nav-inner">
-        <a class="nav-brand" href="#" onclick="showPage('home')">Portfolio Học Phần</a>
-        <div class="nav-links">
-            <a onclick="showPage('home')" class="active" id="nav-home">Trang chủ</a>
-            <a onclick="showPage('projects')" id="nav-projects">Tuần học</a>
-            <a onclick="showPage('summary')" id="nav-summary">Tổng kết</a>
-        </div>
+  <div class="nav-inner">
+    <a class="nav-brand" href="#" onclick="showPage('home')">Portfolio – Học Tập</a>
+    <div class="nav-links">
+      <a onclick="showPage('home')" class="active" id="nav-home">Trang chủ</a>
+      <a onclick="showPage('projects')" id="nav-projects">Dự án</a>
+      <a onclick="showPage('summary')" id="nav-summary">Tổng kết</a>
     </div>
+  </div>
 </nav>
-
 
 <!-- ═══════════════════════════════════ TRANG CHỦ ═══════════════════════════════════ -->
 <div id="page-home" class="page active">
 
-    <div class="hero">
-        <div class="hero-tag">Portfolio Học Tập · 2025–2026</div>
-        <h1>Hành Trình Phát Triển<br>Kiến Thức và Kỹ Năng</h1>
-        <p class="hero-sub">
-            Hệ thống hóa và trình bày các kết quả bài tập, dự án học tập trong học phần
-            <strong style="color:white">Tổng kết Học Phần</strong> —
-            Trường Đại học Công nghệ, ĐHQGHN.
+  <div class="hero">
+    <div class="hero-tag">Portfolio Học Tập · 2025–2026</div>
+    <h1>Hành Trình Phát Triển Năng Lực Số & AI</h1>
+    <p class="hero-sub">
+      Hệ thống hóa các kết quả bài tập và dự án trong học phần <strong style="color:white">Kỹ năng Số và Ứng dụng Trí tuệ Nhân tạo</strong>
+    </p>
+    <div class="hero-chips">
+      <span class="chip">AI &amp; Machine Learning</span>
+      <span class="chip">Prompt Engineering</span>
+      <span class="chip">Nghiên cứu Khoa học</span>
+      <span class="chip">Kỹ năng Cộng tác</span>
+      <span class="chip">Đạo đức Học thuật</span>
+    </div>
+    <div class="hero-info-bar">
+      <div class="hero-info-item">
+        <span class="label">MSSV</span>
+        <span class="value">[MSSV]</span>
+      </div>
+      <div class="hero-info-item">
+        <span class="label">Sinh viên</span>
+        <span class="value">[Tên sinh viên]</span>
+      </div>
+      <div class="hero-info-item">
+        <span class="label">Email</span>
+        <span class="value">student@vnu.edu.vn</span>
+      </div>
+      <div class="hero-info-item">
+        <span class="label">Trường</span>
+        <span class="value">UET – VNU Hà Nội</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Giới thiệu bản thân</div>
+    <div class="section-divider"></div>
+
+    <div class="intro-card">
+      <div>
+        <div class="intro-avatar">👤</div>
+      </div>
+      <div class="intro-content">
+        <h2>[Tên sinh viên]</h2>
+        <div class="intro-role">Sinh viên · UET – VNU Hà Nội</div>
+        <p>
+          Tôi là sinh viên năm 1 tại Đại học Công nghệ – ĐHQGHN.
+          Với niềm đam mê khám phá công nghệ và trí tuệ nhân tạo, tôi luôn tìm cách áp dụng
+          những kiến thức học được vào giải quyết các vấn đề thực tiễn.
         </p>
-        <div class="hero-chips">
-            <span class="chip">Tìm kiếm thông tin</span>
-            <span class="chip">Phân tích dữ liệu</span>
-            <span class="chip">Tư duy phản biện</span>
-            <span class="chip">Kỹ năng Cộng tác</span>
-            <span class="chip">Trình bày chuyên nghiệp</span>
+        <div class="info-grid">
+          <div class="info-item">
+            <div class="key">MSSV</div>
+            <div class="val">[MSSV]</div>
+          </div>
+          <div class="info-item">
+            <div class="key">Email</div>
+            <div class="val">student@vnu.edu.vn</div>
+          </div>
+          <div class="info-item">
+            <div class="key">Đơn vị</div>
+            <div class="val">UET – ĐHQGHN</div>
+          </div>
+          <div class="info-item">
+            <div class="key">Năm học</div>
+            <div class="val">2025 – 2026</div>
+          </div>
         </div>
-        <div class="hero-info-bar">
-            <div class="hero-info-item">
-                <span class="label">Sinh viên</span>
-                <span class="value">Tên Sinh Viên</span>
-            </div>
-            <div class="hero-info-item">
-                <span class="label">MSSV</span>
-                <span class="value">[MSSV]</span>
-            </div>
-            <div class="hero-info-item">
-                <span class="label">Email</span>
-                <span class="value">student@vnu.edu.vn</span>
-            </div>
-            <div class="hero-info-item">
-                <span class="label">Trường</span>
-                <span class="value">UET – VNU Hà Nội</span>
-            </div>
-        </div>
+      </div>
     </div>
 
-    <div class="section">
-
-        <!-- Giới thiệu bản thân -->
-        <div class="section-title">Giới thiệu bản thân</div>
-        <div class="section-divider"></div>
-        <p class="section-desc">Thông tin cá nhân và bối cảnh học tập</p>
-
-        <div class="intro-card">
-            <div>
-                <div class="intro-avatar">
-                    <img src="ima/avatar.jpg" alt="Avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                    <div style="display:none;background:linear-gradient(135deg,#1a56db,#0ea5e9);border-radius:16px;width:100%;aspect-ratio:1;align-items:center;justify-content:center;font-size:2.5rem;color:white;font-family:'Playfair Display',serif;font-weight:800;">VĐA</div>
-                </div>
-            </div>
-            <div class="intro-content">
-                <h2>Tên Sinh Viên</h2>
-                <div class="intro-role">Sinh viên · Trường Đại học Công nghệ · UET</div>
-                <p>
-                    Tôi là sinh viên tại Trường Đại học Công nghệ – Đại học Quốc gia Hà Nội.
-                    Với niềm đam mê khám phá và học hỏi, tôi luôn tìm cách áp dụng những kiến thức học được 
-                    vào giải quyết các vấn đề thực tiễn.
-                </p>
-                <p>
-                    Trong học kỳ này, tôi đã hoàn thành các bài tập thành phần, nắm vững các kiến thức cơ bản 
-                    và phát triển nhiều kỹ năng quan trọng cho sự nghiệp trong tương lai.
-                </p>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <div class="key">MSSV</div>
-                        <div class="val">[MSSV]</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="key">Email</div>
-                        <div class="val">student@vnu.edu.vn</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="key">Đơn vị đào tạo</div>
-                        <div class="val">Đại học Công nghệ – ĐHQGHN</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="key">Năm học</div>
-                        <div class="val">2025 – 2026</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Giới thiệu môn học -->
-        <div class="course-card">
-            <h3>📚 Học phần: Tổng kết Học tập</h3>
-            <p>
-                Học phần này trang bị cho sinh viên nền tảng vững chắc về quá trình học tập có hệ thống,
-                khả năng phân tích và tổng hợp thông tin, cũng như kỹ năng trình bày chuyên nghiệp.
-                Chương trình bao gồm các nội dung cốt lõi: tìm kiếm và đánh giá thông tin, phân tích dữ liệu,
-                cộng tác và trình bày kết quả. Đây là học phần giúp sinh viên hệ thống hóa toàn bộ kiến thức 
-                và kỹ năng đã học, chuẩn bị cho sự nghiệp và học tập tiếp theo.
-            </p>
-        </div>
-
-        <!-- Tóm tắt các bài tập -->
-        <div style="margin-top: 56px;">
-            <div class="section-title">Tóm tắt các tuần học & bài tập</div>
-            <div class="section-divider"></div>
-            <p class="section-desc">Các nội dung chính trong học phần — nhấn vào thẻ để xem chi tiết</p>
-
-            <div class="project-grid">
-
-                <div class="project-card c1" onclick="showProjectDetail(1)">
-                    <div class="project-banner"></div>
-                    <div class="project-body">
-                        <span class="project-num">Tuần 01</span>
-                        <h3>Chủ đề tuần 1</h3>
-                        <p>Nội dung tóm tắt của tuần 1. Tìm hiểu các khái niệm cơ bản và nguyên lý hoạt động.</p>
-                    </div>
-                    <div class="project-footer">
-                        <div class="tags"><span class="tag">Kiến thức cơ bản</span></div>
-                        <button class="view-btn">Xem chi tiết →</button>
-                    </div>
-                </div>
-
-                <div class="project-card c2" onclick="showProjectDetail(2)">
-                    <div class="project-banner"></div>
-                    <div class="project-body">
-                        <span class="project-num">Tuần 02</span>
-                        <h3>Chủ đề tuần 2</h3>
-                        <p>Nội dung tóm tắt của tuần 2. Phát triển kỹ năng và ứng dụng thực tiễn.</p>
-                    </div>
-                    <div class="project-footer">
-                        <div class="tags"><span class="tag">Kỹ năng ứng dụng</span></div>
-                        <button class="view-btn">Xem chi tiết →</button>
-                    </div>
-                </div>
-
-                <div class="project-card c3" onclick="showProjectDetail(3)">
-                    <div class="project-banner"></div>
-                    <div class="project-body">
-                        <span class="project-num">Tuần 03</span>
-                        <h3>Chủ đề tuần 3</h3>
-                        <p>Nội dung tóm tắt của tuần 3. Phân tích sâu và tư duy phản biện.</p>
-                    </div>
-                    <div class="project-footer">
-                        <div class="tags"><span class="tag">Phân tích</span></div>
-                        <button class="view-btn">Xem chi tiết →</button>
-                    </div>
-                </div>
-
-                <div class="project-card c4" onclick="showProjectDetail(4)">
-                    <div class="project-banner"></div>
-                    <div class="project-body">
-                        <span class="project-num">Tuần 04</span>
-                        <h3>Chủ đề tuần 4</h3>
-                        <p>Nội dung tóm tắt của tuần 4. Cộng tác nhóm và làm việc có hiệu quả.</p>
-                    </div>
-                    <div class="project-footer">
-                        <div class="tags"><span class="tag">Cộng tác</span></div>
-                        <button class="view-btn">Xem chi tiết →</button>
-                    </div>
-                </div>
-
-                <div class="project-card c5" onclick="showProjectDetail(5)">
-                    <div class="project-banner"></div>
-                    <div class="project-body">
-                        <span class="project-num">Tuần 05</span>
-                        <h3>Chủ đề tuần 5</h3>
-                        <p>Nội dung tóm tắt của tuần 5. Tổng hợp kiến thức và ứng dụng nâng cao.</p>
-                    </div>
-                    <div class="project-footer">
-                        <div class="tags"><span class="tag">Tổng hợp</span></div>
-                        <button class="view-btn">Xem chi tiết →</button>
-                    </div>
-                </div>
-
-                <div class="project-card c6" onclick="showProjectDetail(6)">
-                    <div class="project-banner"></div>
-                    <div class="project-body">
-                        <span class="project-num">Tuần 06</span>
-                        <h3>Chủ đề tuần 6</h3>
-                        <p>Nội dung tóm tắt của tuần 6. Hoàn thiện kỹ năng và chuẩn bị bước tiếp theo.</p>
-                    </div>
-                    <div class="project-footer">
-                        <div class="tags"><span class="tag">Kết luận</span></div>
-                        <button class="view-btn">Xem chi tiết →</button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
+    <div class="course-card">
+      <h3>📚 Học phần: Kỹ năng Số và Ứng dụng Trí tuệ Nhân tạo</h3>
+      <p>
+        Học phần này trang bị cho sinh viên nền tảng về tư duy kỹ thuật số và khả năng khai thác
+        các công cụ trí tuệ nhân tạo trong học tập, nghiên cứu và làm việc. Chương trình bao gồm các nội dung:
+        tìm kiếm và đánh giá thông tin học thuật, kỹ thuật viết prompt cho LLM, cộng tác trực tuyến,
+        sử dụng AI tạo sinh và xây dựng ý thức trách nhiệm khi ứng dụng AI.
+      </p>
     </div>
-    <footer>
-        <p>Tên Sinh Viên · [MSSV] · <a href="mailto:student@vnu.edu.vn">student@vnu.edu.vn</a> · Đại học Công nghệ – ĐHQGHN · 2025–2026</p>
-    </footer>
+
+    <div style="margin-top: 56px;">
+      <div class="section-title">Tóm tắt các bài tập & dự án</div>
+      <div class="section-divider"></div>
+      <p class="section-desc">06 bài tập thành phần — nhấn vào thẻ để xem chi tiết</p>
+
+      <div class="project-grid">
+        <div class="project-card c1" onclick="showProjectDetail(1)">
+          <div class="project-banner"></div>
+          <div class="project-body">
+            <span class="project-num">Bài tập 01</span>
+            <h3>Thao tác cơ bản với tệp tin và thư mục</h3>
+            <p>Rèn luyện kỹ năng tổ chức tệp tin, quản lý dữ liệu và sử dụng hệ thống lưu trữ đám mây.</p>
+          </div>
+          <div class="project-footer">
+            <div class="tags"><span class="tag">Quản lý dữ liệu</span></div>
+            <button class="view-btn">Xem chi tiết →</button>
+          </div>
+        </div>
+
+        <div class="project-card c2" onclick="showProjectDetail(2)">
+          <div class="project-banner"></div>
+          <div class="project-body">
+            <span class="project-num">Bài tập 02</span>
+            <h3>Tìm kiếm và đánh giá thông tin học thuật</h3>
+            <p>Nghiên cứu về vấn đề khoa học, so sánh và đánh giá độ tin cậy của các nguồn tài liệu.</p>
+          </div>
+          <div class="project-footer">
+            <div class="tags"><span class="tag">Nghiên cứu KH</span></div>
+            <button class="view-btn">Xem chi tiết →</button>
+          </div>
+        </div>
+
+        <div class="project-card c3" onclick="showProjectDetail(3)">
+          <div class="project-banner"></div>
+          <div class="project-body">
+            <span class="project-num">Bài tập 03</span>
+            <h3>Viết prompt hiệu quả cho các tác vụ học tập</h3>
+            <p>Phát triển kỹ năng viết prompt theo kỹ thuật Role-prompting và Chain-of-thought.</p>
+          </div>
+          <div class="project-footer">
+            <div class="tags"><span class="tag">Prompt Engineering</span></div>
+            <button class="view-btn">Xem chi tiết →</button>
+          </div>
+        </div>
+
+        <div class="project-card c4" onclick="showProjectDetail(4)">
+          <div class="project-banner"></div>
+          <div class="project-body">
+            <span class="project-num">Bài tập 04</span>
+            <h3>Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h3>
+            <p>Quản lý và điều phối dự án nhóm sử dụng các công cụ cộng tác số.</p>
+          </div>
+          <div class="project-footer">
+            <div class="tags"><span class="tag">Teamwork</span></div>
+            <button class="view-btn">Xem chi tiết →</button>
+          </div>
+        </div>
+
+        <div class="project-card c5" onclick="showProjectDetail(5)">
+          <div class="project-banner"></div>
+          <div class="project-body">
+            <span class="project-num">Bài tập 05</span>
+            <h3>Báo cáo chuyên sâu: AI Tạo sinh & Chiến lược Quản trị</h3>
+            <p>Phân tích chuyên sâu về sự phát triển kỹ thuật AI và tác động đến nghiên cứu khoa học.</p>
+          </div>
+          <div class="project-footer">
+            <div class="tags"><span class="tag">Generative AI</span></div>
+            <button class="view-btn">Xem chi tiết →</button>
+          </div>
+        </div>
+
+        <div class="project-card c6" onclick="showProjectDetail(6)">
+          <div class="project-banner"></div>
+          <div class="project-body">
+            <span class="project-num">Bài tập 06</span>
+            <h3>Sử dụng AI có trách nhiệm trong học tập & nghiên cứu</h3>
+            <p>Phân tích chính sách AI, xây dựng bộ nguyên tắc đạo đức cá nhân.</p>
+          </div>
+          <div class="project-footer">
+            <div class="tags"><span class="tag">Đạo đức AI</span></div>
+            <button class="view-btn">Xem chi tiết →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>[Tên sinh viên] · [MSSV] · student@vnu.edu.vn · Đại học Công nghệ – ĐHQGHN · 2025–2026</p>
+  </footer>
 </div>
 
-
-<!-- ═══════════════════════════════════ TUẦN HỌC ═══════════════════════════════════ -->
+<!-- ═══════════════════════════════════ DỰ ÁN ═══════════════════════════════════ -->
 <div id="page-projects" class="page">
 
-    <div class="project-summary-banner">
-        <h1>Chi Tiết Tuần Học & Bài Tập</h1>
-        <p>Hệ thống hóa kết quả từng tuần trong học kỳ</p>
+  <div class="project-summary-banner">
+    <h1>Dự án & Bài tập Thành phần</h1>
+    <p>06 bài tập trong học kỳ — Truy cập tài liệu và xem chi tiết</p>
+  </div>
+
+  <div class="section">
+
+    <!-- BÀI TẬP 1 -->
+    <div id="project-detail-1" class="project-detail">
+      <div class="project-detail-header">
+        <span style="background:#eff6ff;color:#1d4ed8;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Bài tập 01</span>
+        <h2>Thao tác cơ bản với tệp tin và thư mục</h2>
+        <p>Rèn luyện kỹ năng tổ chức, quản lý và lưu trữ dữ liệu học tập trên hệ thống kỹ thuật số</p>
+      </div>
+      <div class="detail-content">
+        <div class="detail-section">
+          <h3>Giới thiệu</h3>
+          <p>Bài tập này đặt nền móng cho toàn bộ quá trình học tập số của sinh viên bằng cách xây dựng thói quen tổ chức tệp tin khoa học, có hệ thống.</p>
+        </div>
+        <div class="detail-section">
+          <h3>Mục tiêu</h3>
+          <ul>
+            <li>Nắm vững các thao tác cơ bản với hệ thống tệp tin</li>
+            <li>Xây dựng cấu trúc thư mục hợp lý</li>
+            <li>Làm quen với hệ thống lưu trữ trực tuyến</li>
+            <li>Hình thành thói quen đặt tên tệp có hệ thống</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>Nội dung</h3>
+          <p>Bài tập bao gồm các hoạt động thực hành về tạo, đổi tên, di chuyển và xóa tệp tin; xây dựng hệ thống phân cấp thư mục; sử dụng Google Drive để lưu trữ dữ liệu.</p>
+        </div>
+        <div class="detail-section">
+          <h3>📥 Tải tài liệu bài tập</h3>
+          <p><a href="tailieu/1.docx" download style="color:#1d4ed8;font-weight:600;text-decoration:none;">⬇ 1.docx</a></p>
+        </div>
+        <div class="detail-section">
+          <h3>Kết quả</h3>
+          <div class="result-box">
+            <p>Thiết lập được hệ thống tổ chức tài liệu học tập khoa học và nhất quán.</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="section">
-
-        <!-- TUẦN 1 -->
-        <div id="project-detail-1" class="project-detail">
-            <div class="project-detail-header">
-                <span class="project-num c1" style="background:#eff6ff;color:#1d4ed8;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Tuần 01</span>
-                <h2>Chủ đề tuần 1</h2>
-                <p>Nội dung tóm tắt và mô tả về các kiến thức chính trong tuần</p>
-            </div>
-            <div class="detail-content">
-                <div class="detail-section">
-                    <h3>Giới thiệu</h3>
-                    <p>Cập nhật nội dung giới thiệu về tuần 1. Mô tả ngắn gọn các mục tiêu học tập và bối cảnh của chủ đề.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Mục tiêu</h3>
-                    <ul>
-                        <li>Mục tiêu 1 của tuần học</li>
-                        <li>Mục tiêu 2 của tuần học</li>
-                        <li>Mục tiêu 3 của tuần học</li>
-                        <li>Mục tiêu 4 của tuần học</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h3>Nội dung chính</h3>
-                    <p>Cập nhật nội dung chi tiết từ tài liệu tuần 1. Bao gồm các khái niệm cơ bản, nguyên lý hoạt động và ứng dụng.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Kết quả đạt được</h3>
-                    <div class="result-box">
-                        <p>Cập nhật kết quả và thành quả đạt được sau tuần học này.</p>
-                    </div>
-                </div>
-                <div class="detail-section">
-                    <h3>Tài liệu tham khảo</h3>
-                    <p>Tài liệu tuần 1: <a href="tailieu/1.docx" target="_blank" style="color:#1a56db;font-weight:600;">Tải tài liệu ➜</a></p>
-                </div>
-            </div>
+    <!-- BÀI TẬP 2 -->
+    <div id="project-detail-2" class="project-detail">
+      <div class="project-detail-header">
+        <span style="background:#f0f9ff;color:#0369a1;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Bài tập 02</span>
+        <h2>Tìm kiếm và Đánh giá Thông tin Học thuật</h2>
+        <p>Nghiên cứu tổng hợp về vấn đề khoa học và ứng dụng AI trong nghiên cứu</p>
+      </div>
+      <div class="detail-content">
+        <div class="detail-section">
+          <h3>Giới thiệu</h3>
+          <p>Bài tập yêu cầu sinh viên thực hành kỹ năng tìm kiếm, đánh giá và tổng hợp thông tin từ các nguồn tài liệu học thuật đa dạng.</p>
         </div>
-
-        <!-- TUẦN 2 -->
-        <div id="project-detail-2" class="project-detail">
-            <div class="project-detail-header">
-                <span style="background:#f0f9ff;color:#0369a1;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Tuần 02</span>
-                <h2>Chủ đề tuần 2</h2>
-                <p>Nội dung tóm tắt và mô tả về các kiến thức chính trong tuần</p>
-            </div>
-            <div class="detail-content">
-                <div class="detail-section">
-                    <h3>Giới thiệu</h3>
-                    <p>Cập nhật nội dung giới thiệu về tuần 2. Mô tả ngắn gọn các mục tiêu học tập và bối cảnh của chủ đề.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Mục tiêu</h3>
-                    <ul>
-                        <li>Mục tiêu 1 của tuần học</li>
-                        <li>Mục tiêu 2 của tuần học</li>
-                        <li>Mục tiêu 3 của tuần học</li>
-                        <li>Mục tiêu 4 của tuần học</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h3>Nội dung chính</h3>
-                    <p>Cập nhật nội dung chi tiết từ tài liệu tuần 2. Bao gồm các khái niệm cơ bản, nguyên lý hoạt động và ứng dụng.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Kết quả đạt được</h3>
-                    <div class="result-box">
-                        <p>Cập nhật kết quả và thành quả đạt được sau tuần học này.</p>
-                    </div>
-                </div>
-                <div class="detail-section">
-                    <h3>Tài liệu tham khảo</h3>
-                    <p>Tài liệu tuần 2: <a href="tailieu/2.docx" target="_blank" style="color:#0891b2;font-weight:600;">Tải tài liệu ➜</a></p>
-                </div>
-            </div>
+        <div class="detail-section">
+          <h3>Mục tiêu</h3>
+          <ul>
+            <li>Thành thạo các công cụ tìm kiếm học thuật</li>
+            <li>Đánh giá độ tin cậy của các nguồn tài liệu khoa học</li>
+            <li>Tổng hợp thông tin từ nhiều bài báo thành báo cáo có cấu trúc</li>
+            <li>Nhận diện sự hỗ trợ của AI trong quá trình tra cứu</li>
+          </ul>
         </div>
-
-        <!-- TUẦN 3 -->
-        <div id="project-detail-3" class="project-detail">
-            <div class="project-detail-header">
-                <span style="background:#f5f3ff;color:#6d28d9;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Tuần 03</span>
-                <h2>Chủ đề tuần 3</h2>
-                <p>Nội dung tóm tắt và mô tả về các kiến thức chính trong tuần</p>
-            </div>
-            <div class="detail-content">
-                <div class="detail-section">
-                    <h3>Giới thiệu</h3>
-                    <p>Cập nhật nội dung giới thiệu về tuần 3. Mô tả ngắn gọn các mục tiêu học tập và bối cảnh của chủ đề.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Mục tiêu</h3>
-                    <ul>
-                        <li>Mục tiêu 1 của tuần học</li>
-                        <li>Mục tiêu 2 của tuần học</li>
-                        <li>Mục tiêu 3 của tuần học</li>
-                        <li>Mục tiêu 4 của tuần học</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h3>Nội dung chính</h3>
-                    <p>Cập nhật nội dung chi tiết từ tài liệu tuần 3. Bao gồm các khái niệm cơ bản, nguyên lý hoạt động và ứng dụng.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Kết quả đạt được</h3>
-                    <div class="result-box">
-                        <p>Cập nhật kết quả và thành quả đạt được sau tuần học này.</p>
-                    </div>
-                </div>
-                <div class="detail-section">
-                    <h3>Tài liệu tham khảo</h3>
-                    <p>Tài liệu tuần 3: <a href="tailieu/3.pptx" target="_blank" style="color:#7c3aed;font-weight:600;">Tải tài liệu ➜</a></p>
-                </div>
-            </div>
+        <div class="detail-section">
+          <h3>📥 Tải tài liệu bài tập</h3>
+          <p><a href="tailieu/2.docx" download style="color:#0369a1;font-weight:600;text-decoration:none;">⬇ 2.docx</a></p>
         </div>
-
-        <!-- TUẦN 4 -->
-        <div id="project-detail-4" class="project-detail">
-            <div class="project-detail-header">
-                <span style="background:#f0fdf4;color:#047857;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Tuần 04</span>
-                <h2>Chủ đề tuần 4</h2>
-                <p>Nội dung tóm tắt và mô tả về các kiến thức chính trong tuần</p>
-            </div>
-            <div class="detail-content">
-                <div class="detail-section">
-                    <h3>Giới thiệu</h3>
-                    <p>Cập nhật nội dung giới thiệu về tuần 4. Mô tả ngắn gọn các mục tiêu học tập và bối cảnh của chủ đề.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Mục tiêu</h3>
-                    <ul>
-                        <li>Mục tiêu 1 của tuần học</li>
-                        <li>Mục tiêu 2 của tuần học</li>
-                        <li>Mục tiêu 3 của tuần học</li>
-                        <li>Mục tiêu 4 của tuần học</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h3>Nội dung chính</h3>
-                    <p>Cập nhật nội dung chi tiết từ tài liệu tuần 4. Bao gồm các khái niệm cơ bản, nguyên lý hoạt động và ứng dụng.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Kết quả đạt được</h3>
-                    <div class="result-box">
-                        <p>Cập nhật kết quả và thành quả đạt được sau tuần học này.</p>
-                    </div>
-                </div>
-                <div class="detail-section">
-                    <h3>Tài liệu tham khảo</h3>
-                    <p>Tài liệu tuần 4: <a href="tailieu/4.docx" target="_blank" style="color:#059669;font-weight:600;">Tải tài liệu ➜</a></p>
-                </div>
-            </div>
+        <div class="detail-section">
+          <h3>Kết quả</h3>
+          <div class="result-box">
+            <p>Hoàn thành bảng so sánh tài liệu với đánh giá phương pháp nghiên cứu và kết quả.</p>
+          </div>
         </div>
-
-        <!-- TUẦN 5 -->
-        <div id="project-detail-5" class="project-detail">
-            <div class="project-detail-header">
-                <span style="background:#fff7ed;color:#c2410c;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Tuần 05</span>
-                <h2>Chủ đề tuần 5</h2>
-                <p>Nội dung tóm tắt và mô tả về các kiến thức chính trong tuần</p>
-            </div>
-            <div class="detail-content">
-                <div class="detail-section">
-                    <h3>Giới thiệu</h3>
-                    <p>Cập nhật nội dung giới thiệu về tuần 5. Mô tả ngắn gọn các mục tiêu học tập và bối cảnh của chủ đề.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Mục tiêu</h3>
-                    <ul>
-                        <li>Mục tiêu 1 của tuần học</li>
-                        <li>Mục tiêu 2 của tuần học</li>
-                        <li>Mục tiêu 3 của tuần học</li>
-                        <li>Mục tiêu 4 của tuần học</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h3>Nội dung chính</h3>
-                    <p>Cập nhật nội dung chi tiết từ tài liệu tuần 5. Bao gồm các khái niệm cơ bản, nguyên lý hoạt động và ứng dụng.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Kết quả đạt được</h3>
-                    <div class="result-box">
-                        <p>Cập nhật kết quả và thành quả đạt được sau tuần học này.</p>
-                    </div>
-                </div>
-                <div class="detail-section">
-                    <h3>Tài liệu tham khảo</h3>
-                    <p>Tài liệu tuần 5: <a href="tailieu/5.pptx" target="_blank" style="color:#ea580c;font-weight:600;">Tải tài liệu ➜</a></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- TUẦN 6 -->
-        <div id="project-detail-6" class="project-detail">
-            <div class="project-detail-header">
-                <span style="background:#fef2f2;color:#b91c1c;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Tuần 06</span>
-                <h2>Chủ đề tuần 6</h2>
-                <p>Nội dung tóm tắt và mô tả về các kiến thức chính trong tuần</p>
-            </div>
-            <div class="detail-content">
-                <div class="detail-section">
-                    <h3>Giới thiệu</h3>
-                    <p>Cập nhật nội dung giới thiệu về tuần 6. Mô tả ngắn gọn các mục tiêu học tập và bối cảnh của chủ đề.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Mục tiêu</h3>
-                    <ul>
-                        <li>Mục tiêu 1 của tuần học</li>
-                        <li>Mục tiêu 2 của tuần học</li>
-                        <li>Mục tiêu 3 của tuần học</li>
-                        <li>Mục tiêu 4 của tuần học</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h3>Nội dung chính</h3>
-                    <p>Cập nhật nội dung chi tiết từ tài liệu tuần 6. Bao gồm các khái niệm cơ bản, nguyên lý hoạt động và ứng dụng.</p>
-                </div>
-                <div class="detail-section">
-                    <h3>Kết quả đạt được</h3>
-                    <div class="result-box">
-                        <p>Cập nhật kết quả và thành quả đạt được sau tuần học này.</p>
-                    </div>
-                </div>
-                <div class="detail-section">
-                    <h3>Tài liệu tham khảo</h3>
-                    <p>Tài liệu tuần 6: <a href="tailieu/6.docx" target="_blank" style="color:#dc2626;font-weight:600;">Tải tài liệu ➜</a></p>
-                </div>
-            </div>
-        </div>
-
+      </div>
     </div>
-    <footer>
-        <p>Tên Sinh Viên · [MSSV] · <a href="mailto:student@vnu.edu.vn">student@vnu.edu.vn</a> · Đại học Công nghệ – ĐHQGHN · 2025–2026</p>
-    </footer>
+
+    <!-- BÀI TẬP 3 -->
+    <div id="project-detail-3" class="project-detail">
+      <div class="project-detail-header">
+        <span style="background:#f5f3ff;color:#6d28d9;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Bài tập 03</span>
+        <h2>Viết Prompt Hiệu quả cho Các Tác vụ Học tập</h2>
+        <p>Thực nghiệm so sánh ba cấp độ prompt trên 03 tác vụ học tập thực tiễn</p>
+      </div>
+      <div class="detail-content">
+        <div class="detail-section">
+          <h3>Giới thiệu</h3>
+          <p>Bài tập tập trung vào việc phát triển, thử nghiệm và so sánh các kỹ thuật prompt khác nhau nhằm tối ưu hóa chất lượng đầu ra AI.</p>
+        </div>
+        <div class="detail-section">
+          <h3>Mục tiêu</h3>
+          <ul>
+            <li>Hiểu và áp dụng các kỹ thuật: Role-prompting, Chain-of-thought, Few-shot</li>
+            <li>Phân tích sự khác biệt chất lượng đầu ra giữa các cấp độ prompt</li>
+            <li>Xây dựng hệ thống nguyên tắc để viết prompt hiệu quả</li>
+            <li>Ứng dụng AI có chủ đích vào các tình huống học tập cụ thể</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>📥 Tải tài liệu bài tập</h3>
+          <p><a href="tailieu/3.pptx" download style="color:#6d28d9;font-weight:600;text-decoration:none;">⬇ 3.pptx</a></p>
+        </div>
+        <div class="detail-section">
+          <h3>Kết quả</h3>
+          <div class="result-box">
+            <p>Hình thành hệ thống nguyên tắc R.C.F.T có thể áp dụng vào mọi tác vụ học tập.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BÀI TẬP 4 -->
+    <div id="project-detail-4" class="project-detail">
+      <div class="project-detail-header">
+        <span style="background:#f0fdf4;color:#047857;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Bài tập 04</span>
+        <h2>Sử dụng Công cụ Hợp tác Trực tuyến cho Dự án Nhóm</h2>
+        <p>Quản lý và điều phối dự án nhóm sử dụng hệ sinh thái công cụ số</p>
+      </div>
+      <div class="detail-content">
+        <div class="detail-section">
+          <h3>Giới thiệu</h3>
+          <p>Bài tập tập trung vào việc ứng dụng các công cụ cộng tác kỹ thuật số vào quản lý dự án nhóm thực tiễn.</p>
+        </div>
+        <div class="detail-section">
+          <h3>Mục tiêu</h3>
+          <ul>
+            <li>Làm quen và sử dụng thành thạo các công cụ cộng tác trực tuyến</li>
+            <li>Rèn luyện kỹ năng lập kế hoạch và phân công công việc nhóm</li>
+            <li>Phát triển năng lực giao tiếp trong môi trường làm việc từ xa</li>
+            <li>Hoàn thành dự án nhóm đúng tiến độ</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>📥 Tải tài liệu bài tập</h3>
+          <p><a href="tailieu/4.docx" download style="color:#047857;font-weight:600;text-decoration:none;">⬇ 4.docx</a></p>
+        </div>
+        <div class="detail-section">
+          <h3>Kết quả</h3>
+          <div class="result-box">
+            <p>Hoàn thành dự án nhóm đúng tiến độ và duy trì luồng thông tin thông suốt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BÀI TẬP 5 -->
+    <div id="project-detail-5" class="project-detail">
+      <div class="project-detail-header">
+        <span style="background:#fff7ed;color:#c2410c;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Bài tập 05</span>
+        <h2>Báo cáo Chuyên sâu: AI Tạo sinh & Chiến lược Quản trị</h2>
+        <p>Phân tích toàn diện về sự chuyển dịch kỹ thuật và tác động nghiên cứu</p>
+      </div>
+      <div class="detail-content">
+        <div class="detail-section">
+          <h3>Giới thiệu</h3>
+          <p>Bài tập thảo luận chuyên sâu về AI tạo sinh, yêu cầu sinh viên tổng hợp và phân tích các tài liệu học thuật cấp độ quốc tế.</p>
+        </div>
+        <div class="detail-section">
+          <h3>Mục tiêu</h3>
+          <ul>
+            <li>Tổng hợp và đánh giá tài liệu học thuật từ các cơ quan uy tín</li>
+            <li>Phân tích kiến trúc kỹ thuật và xu hướng phát triển của AI tạo sinh</li>
+            <li>Đánh giá tác động của AI đối với nghiên cứu khoa học</li>
+            <li>Xây dựng khung phân tích rủi ro và chiến lược quản trị AI</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>📥 Tải tài liệu bài tập</h3>
+          <p><a href="tailieu/5.pptx" download style="color:#c2410c;font-weight:600;text-decoration:none;">⬇ 5.pptx</a></p>
+        </div>
+        <div class="detail-section">
+          <h3>Kết quả</h3>
+          <div class="result-box">
+            <p>Hoàn thành báo cáo chuyên sâu với danh mục tài liệu trích dẫn chuẩn.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BÀI TẬP 6 -->
+    <div id="project-detail-6" class="project-detail">
+      <div class="project-detail-header">
+        <span style="background:#fef2f2;color:#b91c1c;display:inline-block;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Bài tập 06</span>
+        <h2>Sử dụng AI Có Trách nhiệm trong Học tập và Nghiên cứu</h2>
+        <p>Phân tích chính sách AI, ứng dụng thực tiễn và xây dựng nguyên tắc đạo đức cá nhân</p>
+      </div>
+      <div class="detail-content">
+        <div class="detail-section">
+          <h3>Giới thiệu</h3>
+          <p>Bài tập đặt ra câu hỏi cốt lõi về ranh giới giữa sử dụng AI hợp lệ và gian lận học thuật.</p>
+        </div>
+        <div class="detail-section">
+          <h3>Mục tiêu</h3>
+          <ul>
+            <li>Phân tích chính sách AI của nhà trường</li>
+            <li>Trải nghiệm thực tiễn việc sử dụng AI cho tác vụ học tập</li>
+            <li>Phân biệt ranh giới giữa hỗ trợ AI hợp lý và gian lận học thuật</li>
+            <li>Xây dựng bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>📥 Tải tài liệu bài tập</h3>
+          <p><a href="tailieu/6.docx" download style="color:#b91c1c;font-weight:600;text-decoration:none;">⬇ 6.docx</a></p>
+        </div>
+        <div class="detail-section">
+          <h3>Kết quả</h3>
+          <div class="result-box">
+            <p>Xây dựng bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <p>[Tên sinh viên] · [MSSV] · student@vnu.edu.vn · Đại học Công nghệ – ĐHQGHN · 2025–2026</p>
+  </footer>
 </div>
-
 
 <!-- ═══════════════════════════════════ TỔNG KẾT ═══════════════════════════════════ -->
 <div id="page-summary" class="page">
 
-    <div class="summary-hero">
-        <h1>Tổng kết Quá trình Học tập</h1>
-        <p>Nhìn lại hành trình phát triển kiến thức và kỹ năng trong suốt học kỳ</p>
+  <div class="summary-hero">
+    <h1>Tổng kết Quá trình Học tập</h1>
+    <p>Nhìn lại hành trình phát triển năng lực số và ứng dụng AI</p>
+  </div>
+
+  <div class="section">
+
+    <div class="stat-row">
+      <div class="stat-card">
+        <div class="num">06</div>
+        <div class="desc">Bài tập hoàn thành</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">11+</div>
+        <div class="desc">Tài liệu được đánh giá</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">03</div>
+        <div class="desc">Công cụ AI ứng dụng</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">06</div>
+        <div class="desc">Nguyên tắc đạo đức</div>
+      </div>
     </div>
 
-    <div class="section">
-
-        <div class="stat-row">
-            <div class="stat-card">
-                <div class="num">06</div>
-                <div class="desc">Tuần học hoàn thành</div>
-            </div>
-            <div class="stat-card">
-                <div class="num">30+</div>
-                <div class="desc">Giờ học và thực hành</div>
-            </div>
-            <div class="stat-card">
-                <div class="num">15+</div>
-                <div class="desc">Tài liệu tham khảo</div>
-            </div>
-            <div class="stat-card">
-                <div class="num">100%</div>
-                <div class="desc">Hoàn thành nhiệm vụ</div>
-            </div>
-        </div>
-
-        <div class="summary-block">
-            <h2><span class="icon-circle">1</span>Tóm tắt toàn bộ quá trình học tập</h2>
-            <p>
-                Học kỳ này đánh dấu bước chuyển quan trọng trong hành trình học tập của tôi. Qua 06 tuần học,
-                tôi đã được tiếp cận một cách có hệ thống với các khái niệm cốt lõi, phương pháp phân tích và 
-                kỹ năng ứng dụng thực tiễn.
-            </p>
-            <p>
-                Từng tuần không chỉ mang lại kiến thức lý thuyết mà còn rèn luyện khả năng suy luận, phân tích 
-                vấn đề và làm việc hợp tác. Những kiến thức và kỹ năng này sẽ là nền tảng vững chắc cho sự phát 
-                triển sự nghiệp của tôi trong tương lai.
-            </p>
-        </div>
-
-        <div class="summary-block">
-            <h2><span class="icon-circle">2</span>Kiến thức và kỹ năng đã đạt được</h2>
-            <p>Sau học kỳ này, tôi đã hình thành và phát triển các nhóm năng lực sau:</p>
-            <div class="skill-pills">
-                <span class="skill-pill">Tìm kiếm thông tin</span>
-                <span class="skill-pill">Đánh giá độ tin cậy</span>
-                <span class="skill-pill">Phân tích dữ liệu</span>
-                <span class="skill-pill">Tư duy phản biện</span>
-                <span class="skill-pill">Cộng tác nhóm</span>
-                <span class="skill-pill">Trình bày chuyên nghiệp</span>
-                <span class="skill-pill">Quản lý thời gian</span>
-                <span class="skill-pill">Kỹ năng giao tiếp</span>
-                <span class="skill-pill">Viết báo cáo</span>
-                <span class="skill-pill">Tổng hợp kiến thức</span>
-                <span class="skill-pill">Giải quyết vấn đề</span>
-                <span class="skill-pill">Làm việc độc lập</span>
-            </div>
-        </div>
-
-        <div class="summary-block">
-            <h2><span class="icon-circle">3</span>Những khó khăn và cách khắc phục</h2>
-
-            <div class="challenge-item">
-                <span class="challenge-label problem">Khó khăn</span>
-                <div class="challenge-text">Lúc đầu gặp khó khăn trong việc tìm kiếm và đánh giá độ tin cậy của các nguồn tài liệu.</div>
-            </div>
-            <div class="challenge-item">
-                <span class="challenge-label solution">Giải pháp</span>
-                <div class="challenge-text">Tham khảo hướng dẫn từ giáo viên, tìm hiểu tiêu chí đánh giá và thực hành thường xuyên.</div>
-            </div>
-
-            <div class="challenge-item">
-                <span class="challenge-label problem">Khó khăn</span>
-                <div class="challenge-text">Khó cân bằng giữa việc học lý thuyết và ứng dụng thực tiễn trong các bài tập.</div>
-            </div>
-            <div class="challenge-item">
-                <span class="challenge-label solution">Giải pháp</span>
-                <div class="challenge-text">Xem các bài tập thực hành như cơ hội áp dụng kiến thức, không chỉ là nhiệm vụ hoàn thành.</div>
-            </div>
-
-            <div class="challenge-item">
-                <span class="challenge-label problem">Khó khăn</span>
-                <div class="challenge-text">Thời gian hạn chế khi phải hoàn thành nhiều nhiệm vụ cùng lúc.</div>
-            </div>
-            <div class="challenge-item">
-                <span class="challenge-label solution">Giải pháp</span>
-                <div class="challenge-text">Lập kế hoạch chi tiết, phân chia công việc thành các phần nhỏ và hoàn thành từng phần một.</div>
-            </div>
-        </div>
-
-        <div class="summary-block">
-            <h2><span class="icon-circle">4</span>Đánh giá kết quả cá nhân</h2>
-            <p>
-                Nhìn lại tổng thể học kỳ, tôi đánh giá bản thân đã đạt được những tiến bộ đáng kể. 
-                Điểm mạnh nổi bật là khả năng phân tích và tổng hợp thông tin — thể hiện qua các bài báo cáo 
-                chi tiết và có cấu trúc rõ ràng.
-            </p>
-            <p>
-                Kỹ năng cộng tác nhóm cũng được cải thiện rõ rệt. Tôi đã học cách làm việc hiệu quả với các 
-                thành viên khác, chia sẻ ý kiến và hỗ trợ nhau hoàn thành dự án.
-            </p>
-            <p>
-                Điểm cần cải thiện là cần chủ động hơn trong việc tìm kiếm thêm tài liệu bổ sung và sâu hơn, 
-                thay vì chỉ dựa vào tài liệu được cung cấp.
-            </p>
-        </div>
-
-        <div class="summary-block">
-            <h2><span class="icon-circle">5</span>Định hướng phát triển trong tương lai</h2>
-            <ul class="future-list">
-                <li>Tiếp tục nâng cao kỹ năng tìm kiếm và phân tích thông tin từ các nguồn đa dạng.</li>
-                <li>Áp dụng các phương pháp học tập hiệu quả vào các học phần chuyên ngành tiếp theo.</li>
-                <li>Phát triển năng lực lãnh đạo và tổ chức trong các dự án nhóm kỹ thuật.</li>
-                <li>Theo dõi các xu hướng mới và cập nhật kiến thức liên tục trong lĩnh vực chuyên môn.</li>
-                <li>Đóng góp tích cực vào cộng đồng học tập bằng cách chia sẻ kinh nghiệm với bạn bè.</li>
-            </ul>
-        </div>
-
+    <div class="summary-block">
+      <h2><span class="icon-circle">1</span>Tóm tắt toàn bộ quá trình</h2>
+      <p>
+        Học kỳ này đánh dấu bước chuyển quan trọng từ người dùng thụ động của công nghệ số trở thành
+        người học chủ động, có phương pháp và có ý thức trách nhiệm. Qua 06 bài tập, đã tiếp cận toàn bộ
+        vòng tròn năng lực số: từ tổ chức dữ liệu nền tảng, qua nghiên cứu học thuật, viết prompt,
+        cộng tác nhóm, đến phân tích chiến lược AI cấp độ toàn cầu.
+      </p>
     </div>
-    <footer>
-        <p>Tên Sinh Viên · [MSSV] · <a href="mailto:student@vnu.edu.vn">student@vnu.edu.vn</a> · Đại học Công nghệ – ĐHQGHN · 2025–2026</p>
-    </footer>
+
+    <div class="summary-block">
+      <h2><span class="icon-circle">2</span>Kiến thức và kỹ năng đạt được</h2>
+      <p>Các nhóm năng lực hình thành:</p>
+      <div class="skill-pills">
+        <span class="skill-pill">Quản lý tệp tin & dữ liệu</span>
+        <span class="skill-pill">Đánh giá nguồn học thuật</span>
+        <span class="skill-pill">Prompt Engineering</span>
+        <span class="skill-pill">Role-prompting & CoT</span>
+        <span class="skill-pill">Cộng tác trực tuyến</span>
+        <span class="skill-pill">Cloud Storage</span>
+        <span class="skill-pill">Phân tích chính sách AI</span>
+        <span class="skill-pill">Đạo đức học thuật</span>
+        <span class="skill-pill">Generative AI</span>
+        <span class="skill-pill">Tư duy phản biện</span>
+      </div>
+    </div>
+
+    <div class="summary-block">
+      <h2><span class="icon-circle">3</span>Định hướng phát triển tương lai</h2>
+      <ul class="future-list">
+        <li>Nâng cao kỹ năng Prompt Engineering, hướng tới thành thạo các kỹ thuật nâng cao như RAG</li>
+        <li>Ứng dụng kỹ năng đánh giá thông tin vào nghiên cứu khoa học trong các học phần chuyên ngành</li>
+        <li>Phát triển năng lực lãnh đạo nhóm kỹ thuật số</li>
+        <li>Theo dõi và cập nhật các chính sách AI và chuẩn mực quốc tế</li>
+        <li>Đóng góp cộng đồng bằng cách chia sẻ kinh nghiệm về sử dụng AI có trách nhiệm</li>
+      </ul>
+    </div>
+
+  </div>
+  <footer>
+    <p>[Tên sinh viên] · [MSSV] · student@vnu.edu.vn · Đại học Công nghệ – ĐHQGHN · 2025–2026</p>
+  </footer>
 </div>
 
-<script src="js/script.js"></script>
+<script>
+  function showPage(page) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+    document.getElementById('page-' + page).classList.add('active');
+    document.getElementById('nav-' + page).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function showProjectDetail(num) {
+    showPage('projects');
+    setTimeout(() => {
+      const el = document.getElementById('project-detail-' + num);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+  }
+</script>
+
 </body>
 </html>
